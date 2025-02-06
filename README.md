@@ -17,8 +17,6 @@ This dataset has recently been updated by Tomkins et al. (2018a), with the inclu
 <p align="center">
 	<img width = "550" src="./images/pyrenees-curve.png"
 </p>
-
-The **key files** in this repository are:
  
 ## Data availability
 	
