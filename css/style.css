@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	padding:15px;
+}
+
+.underline {
+	border-bottom: 1px solid #eee;
+	margin-top: 10px;
+}
+
+#after, #calculate {
+	margin-bottom: 5rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+		max-height: 500px;
+}
+
+input:read-only {
+  color: gray;
+}
+input:-moz-read-only { /* For Firefox */
+ color: gray;
+}
