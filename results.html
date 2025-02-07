@@ -13,6 +13,7 @@
 
 		<script src="libs/d3.v7.min.js"></script>
 		<script src="js/results.js"></script>
+		<script src="js/tea.js"></script>
     </head>
 
 	<body onload="onload()">
@@ -41,7 +42,6 @@
 					<tbody id="data-table-body"></tbody>
 				</table>
 
-				<!-- <canvas id="ageChart" width="800" height="400"></canvas> -->
 				<svg id="chart"></svg>
 				
 				<h3>Considerations</h3>
@@ -94,32 +94,10 @@
 				ages<sup><a href="#4">4</a></sup>. For more robust analysis, probably density 
 				estimates or Gaussian modelling<sup><a href="#7">7,9</a></sup> can 
 				be used to eliminate positive or negative skew. For advice on Gaussian modelling, please contact 
-				<script type="text/javascript" language="javascript">
-						<!--
-						// Email obfuscator script 2.1 by Tim Williams, University of Arizona
-						// Random encryption key feature coded by Andrew Moulden
-						// This code is freeware provided these four comment lines remain intact
-						// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-						{ coded = "HW77GNS.7wHXPFr@Cwr7DzWi.HWFdGNr7Nz.Wd.2X"
-						key = "p0hSYtW26OkiZDFNr3HyUf84wbBauExRdTgnesAmVCKGIo7jMl1XPc5qvz9JLQ"
-						shift=coded.length
-						link=""
-						for (i=0; i<coded.length; i++) {
-							if (key.indexOf(coded.charAt(i))==-1) {
-							ltr = coded.charAt(i)
-							link += (ltr)
-							}
-							else {     
-							ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-							link += (key.charAt(ltr))
-							}
-						}
-						document.write("<a href='mailto:"+link+"'>Matt Tomkins</a>")
-						}
-						//-->
-					</script><noscript>Matt Tomkins</noscript> at the University of Manchester.</p>
+				<script>document.write(Tea.decrypt("yGPrQ07grp7ysPpgUKbZqb0ZglXHKuwzWv2IGpmmg1bhrVUOaKgbrooEFwaNT6ZExjzvsFgF2cQFdsZY9gqk9uqz8gEHTRkasRaLkNkvx9CdGblRWy0Yqw==", "shed"));</script><noscript>Matt Tomkins</noscript> 
+				at the University of Manchester.</p>
 					
-					<input class="button" type="button" value="Back to Home" onclick="location.href='index.html'"></input>
+				<input class="button" type="button" value="Back to Home" onclick="location.href='index.html'"></input>
 			</div>
 			<div class='underline'>
 				
@@ -130,7 +108,7 @@
 				<div id='ref'></div>
 
 				<h5>Source Code</h5>
-				<p>The source code for this website is available on <a href="https://github.com/jonnyhuck/shed-earth">GitHub</a>.</p>
+				<p>The source code for this website is available on <a href="https://github.com/jonnyhuck/shed-earth_js">GitHub</a>.</p>
 				
 				<h5 id="References">References</h5>
 				<ol>
