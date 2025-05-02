@@ -151,7 +151,7 @@ function setBoulder(selectedIndex){
 
 	//set the image for the selected boulder
 	var imgs = ["manchester.png", "maladeta.png", "bassies.png", "carlit.png"];
-	document.getElementById("boulderimg").src = "/static/shedcalc/images/" + imgs[selectedIndex];
+	document.getElementById("boulderimg").src = "./images/" + imgs[selectedIndex];
 }
 
 /**
